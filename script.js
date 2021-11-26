@@ -23,8 +23,15 @@ frases =  `${frases}-${frase}`
 }
 document.write(frases) */
 
+/* let numero = 0;
+while (confirm('quiere ingresar un numero')){
+numero = numero + (numero = prompt('ingrese un numero'))
+typeof(numero) == 'string' ? alert('debe ingresar un numero') : null;
+}
+document.write(numero) */
 
-const Letras = ['T', 'R', 'W', 'A', 'G', 'M',
+
+/* const Letras = ['T', 'R', 'W', 'A', 'G', 'M',
  'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E']
 for (let index = 0; index < 3; index++) {
 let dni = prompt('ingrese su numero de DNI entre 0 y 99999999')
@@ -32,3 +39,13 @@ dni > 99999999 || dni < 0 || dni != Number ? alert('dni debe ser un numero') :
 console.log(dni)
 alert(Letras[posicion = dni % 23])
 }
+ */
+
+
+/* for (let index = 1; index < 31; index++) {
+for (let i = 0; i < index; i++) {
+    document.write(index)
+}
+document.write('<br>')
+}
+     */
