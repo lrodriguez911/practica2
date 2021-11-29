@@ -1,7 +1,8 @@
 /* while (true) {
     let edad = parseInt(prompt('Ingrese su edad'));
     edad < 18 ? alert('No puede conducir') : alert('Ya puede conducir')
-}; */
+}; 
+*/
 
 
 /* while(true){
@@ -48,4 +49,75 @@ for (let i = 0; i < index; i++) {
 }
 document.write('<br>')
 }
-     */
+ */
+
+
+
+
+
+/* let bucle = true
+while (bucle) {
+let numero = parseInt(prompt('ingrese un numero menor de 50'))
+if (numero <= 50) {
+    for (let index = numero; index > 1; index--) {
+        for (let i = index; i > 1; i--) {
+                   document.write(index)
+               } 
+                document.write('<br>')
+               
+               }
+bucle = false
+}
+} */
+
+
+/* let bucle = true
+while (bucle) {
+    let numero = parseInt(prompt('ingrese un numero menor de 50'))
+    if (numero <= 50) {
+for (let index = 2; index < 31; index++) {
+for (let i = 1; i < index; i++) {
+        document.write(i)
+}
+document.write('<br>')
+}
+bucle = false;
+    }
+} */
+ 
+
+    
+/* for (let index = 1; index <= 500; index++) {
+for (let i = 1; i <= 1; i++) {
+        document.write(index)
+        
+        if (index % 4 === 0) {
+            document.write('(Multiplo de 4)')
+        }
+        if (index % 9 === 0) {
+            document.write('(Multiplo de 9)')
+        }
+        if (index % 5 === 0) {
+            document.write('<br> ----------------------------')
+        }
+        document.write('<br>')
+}
+} */
+
+
+
+
+/* let filas = parseInt(prompt('ingrese un numero filas'))
+let columnas = parseInt(prompt('ingrese un numero columnas'))
+let numero = columnas * filas
+document.write('<table>')
+for (let index = 0; index < filas; index++) {
+    document.write('<tr>')
+for (let i = 0; i < columnas; i++) {
+        document.write(`<td> ${numero-= 1}`)
+}
+document.write('</td>')
+document.write('</tr>')
+}
+document.write('</table>') */
+
